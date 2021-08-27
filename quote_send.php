@@ -34,7 +34,7 @@
 </head>
 <body onLoad="setTimeout('delayedRedirect()', 8000)" style="background-color:#fff;">
 <?php
-$conn = mysqli_connect("localhost","wolfsrvy_opinion","wEzpL6xwXW5U","wolfsrvy_wolfopinion");
+$conn = mysqli_connect("localhost","root","4976ce324896ea2c45f719b8eb1042c47719f0e53e66e0b9","wolfopinion");
 if (mysqli_connect_errno()) {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   exit();
